@@ -11,15 +11,20 @@
    <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
    <link href="css/theme.css" rel="stylesheet">
+   <link href="css/modern-enhancements.css" rel="stylesheet">
    <link href="css/blueimp-gallery.min.css" rel="stylesheet">
    <link href="css/blueimp-gallery-video.css" rel="stylesheet">
 </head>
 
 <body>
    <div class="container">
-      <header class="jumbotron subhead" id="overview">
+      <header class="jumbotron subhead" id="overview" style="position: relative;">
          <p class="lead"> Unidad de Computación, Teledetección y modelado 3D del CISPAC </p>
          <h1>CISPAC 3D LAB</h1>
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; left: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite;">
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; right: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite 1.5s;">
       </header>
       <div class="masthead">
          <div class="navbar">
@@ -52,144 +57,67 @@
       <div class="row-fluid">
          <div class="span3 bs-docs-sidebar" id="navparent">
             <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
-               <li><a href="#imagegallery1"> Image Gallery 1 </a></li>
-               <li><a href="#imagegallery2"> Image Gallery 2 </a></li>
+               <li><a href="#imagegallery1">Instalaciones del laboratorio</a></li>
             </ul>
          </div>
          <div class="span8 offset1">
             <section id="imagegallery1">
                <div class="page-header">
-                  <h3>Image Gallery 1</h3>
+                  <h3>Instalaciones del laboratorio</h3>
                </div>
                <div class="row-fluid">
                   <ul class="thumbnails da-thumbs">
                      <li class="span4">
-                        <a title="Tempus imperdiet nulla malesuada pellentesque elit eget. Sed enim ut sem viverra aliquet eget sit amet tellus. "
-                           href="images/galen-crout-175291-unsplash.jpg" class="thumbnail">
-                           <img alt="" src="images/galen-crout-175291-unsplash.jpg"
+                        <a title="Zona de fotografía y fotogrametría"
+                           href="images/Zona de fotografía y fotogrametría.jpeg" class="thumbnail">
+                           <img alt="Zona de fotografía" src="images/Zona de fotografía y fotogrametría.jpeg"
                               style="width: 187px; height: 125px;">
                         </a>
-                        <p class="caption"> Tempus imperdiet nulla malesuada pellentesque. </p>
+                        <p class="caption">Zona de fotografía y fotogrametría</p>
                      </li>
                      <li class="span4">
-                        <a title="Purus faucibus ornare suspendisse sed nisi. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Tortor at risus viverra adipiscing at in."
-                           href="images/israel-palacio-778505-unsplash.jpg" class="thumbnail">
-                           <img alt="" src="images/israel-palacio-778505-unsplash.jpg"
+                        <a title="Workstation de alto rendimiento para procesamiento de datos"
+                           href="images/Workstation de alto rendimiento.jpeg" class="thumbnail">
+                           <img alt="Workstation" src="images/Workstation de alto rendimiento.jpeg"
+                              style="width: 130px; height: 125px;">
+                        </a>
+                        <p class="caption">Workstation de alto rendimiento</p>
+                     </li>
+                     <li class="span4">
+                        <a title="Zona de impresión 3D" href="images/Impresora 3D Creality.jpeg" class="thumbnail">
+                           <img alt="Zona de impresión 3D" src="images/Impresora 3D Creality.jpeg"
                               style="width: 187px; height: 125px;">
                         </a>
-                        <p class="caption"> Purus faucibus ornare suspendisse sed nisi. </p>
-                     </li>
-                     <li class="span4">
-                        <a title="Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Ante in nibh mauris cursus mattis molestie. Morbi tincidunt ornare massa eget egestas purus. "
-                           href="images/plants-in-beakers.jpg" class="thumbnail">
-                           <img alt="" src="images/plants-in-beakers.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. </p>
+                        <p class="caption">Zona de impresión 3D</p>
                      </li>
                   </ul>
                </div>
                <div class="row-fluid">
                   <ul class="thumbnails">
                      <li class="span4">
-                        <a href="images/bristol-robotics-lab.jpg" class="thumbnail"
-                           title="Tempus imperdiet nulla malesuada pellentesque elit eget. Sed enim ut sem viverra aliquet eget sit amet tellus.">
-                           <img alt="" src="images/bristol-robotics-lab.jpg" style="width: 187px; height: 125px;">
+                        <a href="images/Leica360RTC_LT.jpg" class="thumbnail"
+                           title="Escáner 3D de largo alcance Leica RTC360 LT">
+                           <img alt="Leica RTC360" src="images/Leica360RTC_LT.jpg" style="width: 187px; height: 125px;">
                         </a>
-                        <p class="caption"> Tempus imperdiet nulla malesuada pellentesque. </p>
+                        <p class="caption">Escáner 3D Leica RTC360 LT</p>
                      </li>
                      <li class="span4">
-                        <a href="images/bristol-robotics-lab2.jpg" class="thumbnail"
-                           title="Purus faucibus ornare suspendisse sed nisi. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Tortor at risus viverra adipiscing at in">
-                           <img alt="" src="images/bristol-robotics-lab2.jpg" style="width: 187px; height: 125px;">
+                        <a href="images/handyscan.jpg" class="thumbnail"
+                           title="Escáner 3D de corto alcance HandyScan Pro">
+                           <img alt="HandyScan" src="images/handyscan.jpg" style="width: 187px; height: 125px;">
                         </a>
-                        <p class="caption"> Purus faucibus ornare suspendisse sed nisi. </p>
+                        <p class="caption">HandyScan 3D Pro Series</p>
                      </li>
                      <li class="span4">
-                        <a href="images/lab-photo.jpg" class="thumbnail"
-                           title="Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Ante in nibh mauris cursus mattis molestie.">
-                           <img alt="" src="images/lab-photo.jpg" style="width: 187px; height: 125px;">
+                        <a href="images/georradar.jpg" class="thumbnail" title="Georradar DS 2000 Leica GeoSystems">
+                           <img alt="Georradar" src="images/georradar.jpg" style="width: 187px; height: 125px;">
                         </a>
-                        <p class="caption"> Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. </p>
-                     </li>
-                  </ul>
-               </div>
-               <div class="row-fluid">
-                  <ul class="thumbnails">
-                     <li class="span4">
-                        <a href="images/syringes.jpg" class="thumbnail"
-                           title="Tempus imperdiet nulla malesuada pellentesque elit eget. Sed enim ut sem viverra aliquet eget sit amet tellus.">
-                           <img alt="" src="images/syringes.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tempus imperdiet nulla malesuada </p>
-                     </li>
-                     <li class="span4">
-                        <a href="images/test-tubes.jpg" class="thumbnail"
-                           title="Purus faucibus ornare suspendisse sed nisi. Velit laoreet id donec ultrices tincidunt arcu non sodales neque.">
-                           <img alt="" src="images/test-tubes.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Purus faucibus ornare suspendisse </p>
-                     </li>
-                     <li class="span4">
-                        <a href="images/microscope.jpg" class="thumbnail"
-                           title="Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Ante in nibh mauris cursus.">
-                           <img alt="" src="images/microscope.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor aliquam nulla facilisi cras </p>
+                        <p class="caption">Georradar DS 2000</p>
                      </li>
                   </ul>
                </div>
             </section>
-            <section id="imagegallery2">
-               <div class="page-header">
-                  <h3>Image Gallery 2</h3>
-               </div>
-               <div class="row-fluid">
-                  <ul class="thumbnails da-thumbs">
-                     <li class="span4">
-                        <a title="Tortor vitae purus 2018" href="images/you-x-ventures-studio.jpg" class="thumbnail">
-                           <img alt="" src="images/you-x-ventures-studio.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor vitae purus 2018 </p>
-                     </li>
-                     <li class="span4">
-                        <a title="Varius duis at consectetur lorem donec massa." href="images/arlington-research.jpg"
-                           class="thumbnail">
-                           <img alt="" src="images/arlington-research.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Varius duis at consectetur lorem donec massa </p>
-                     </li>
-                     <li class="span4">
-                        <a title="Tortor vitae purus 2018." href="images/lab-room.jpg" class="thumbnail">
-                           <img alt="" src="images/lab-room.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor vitae purus 2018 </p>
-                     </li>
-                  </ul>
-               </div>
-               <div class="row-fluid">
-                  <ul class="thumbnails">
-                     <li class="span4">
-                        <a title="Tortor vitae purus 2018" href="images/individual-lab.jpg" class="thumbnail">
-                           <img alt="" src="images/individual-lab.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor vitae purus 2018 </p>
-                     </li>
-                     <li class="span4">
-                        <a title="Varius duis at consectetur lorem donec massa." href="images/arlington-research-2.jpg"
-                           class="thumbnail">
-                           <img alt="" src="images/arlington-research-2.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Varius duis at consectetur lorem donec massa </p>
-                     </li>
-                     <li class="span4">
-                        <a title="Tortor vitae purus 2018." href="images/arlington-research-3.jpg" class="thumbnail">
-                           <img alt="" src="images/arlington-research-3.jpg" style="width: 187px; height: 125px;">
-                        </a>
-                        <p class="caption"> Tortor vitae purus 2018 </p>
-                     </li>
-                  </ul>
-               </div>
-            </section>
+
          </div>
       </div>
    </div>
@@ -200,7 +128,7 @@
                <h3>Información de contacto</h3>
                <p><b>Horario: </b>Lunes-Viernes (8.00am - 5.00pm)</p>
                <p><b>Teléfono: </b>[+34] 881971010</p>
-               <a href="mailto:miguel.carrero@usc.es">Email</a>
+               <a href="mailto:cispac.3dlab@usc.gal">Email</a>
             </div>
             <div class="span2">
                <a href="https://cispac.gal/es/"><img src="thumbs/CISPAC-LAB_logo.jpg" alt="CISPAC-lab-logo" /></a>
@@ -213,8 +141,8 @@
                   15702
                </p>
                <a
-                  href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Show
-                  Map</a>
+                  href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Mostrar
+                  Mapa</a>
             </div>
          </div>
       </div>

@@ -11,14 +11,19 @@
    <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
    <link href="css/theme.css" rel="stylesheet">
+   <link href="css/modern-enhancements.css" rel="stylesheet">
    <link href="css/social-buttons.css" rel="stylesheet">
 </head>
 
 <body>
    <div class="container">
-      <header class="jumbotron subhead" id="overview">
+      <header class="jumbotron subhead" id="overview" style="position: relative;">
          <p class="lead"> Unidad de Computación, Teledetección y modelado 3D del CISPAC </p>
          <h1>CISPAC 3D LAB</h1>
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; left: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite;">
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; right: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite 1.5s;">
       </header>
       <div class="masthead">
          <div class="navbar">
@@ -44,34 +49,30 @@
             <div class="row-fluid">
                <div class="span8">
                   <iframe class="map-frame"
-                     src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=77+Massachusetts+Ave,+3-462+Cambridge,+MA,+02139&amp;aq=&amp;sll=49.303974,-84.738438&amp;sspn=23.436717,38.979492&amp;ie=UTF8&amp;hq=&amp;hnear=77+Massachusetts+Ave,+Cambridge,+Middlesex,+Massachusetts+02139,+United+States&amp;ll=42.359781,-71.093609&amp;spn=0.006469,0.009516&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.8686956789!2d-8.527978623766!3d42.87033810116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2eff48fbea25fb%3A0x16a43bf2180243c8!2sEdificio%20Font%C3%A1n!5e0!3m2!1ses!2ses!4v1706356800000!5m2!1ses!2ses"
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                </div>
                <div class="span4">
                   <div class="box_cont">
-                     <h4>Address</h4>
-                     <p>9999 Generic Research Laboratory<br>
-                        999 Fake Street Avenue<br>
-                        City, State<br>
-                        Country ZIP
+                     <h4>Dirección</h4>
+                     <p>Centro de Investigación Interuniversitario das Paisaxes Atlánticas Culturais (CISPAC)<br>
+                        Edificio Fontán<br>
+                        Santiago de Compostela, A Coruña<br>
+                        15702
                      </p>
-                     <a href="http://maps.google.com">Show Map</a>
+                     <a
+                        href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu">Ver
+                        en Google Maps</a>
                      <hr>
-                     <h4>Phone</h4>
-                     <p>Phone : 999-999-9999<br>
-                        Cell : 999-999-9999
-                     </p>
-                     <a href="mailto:your.email@uni.edu">Email Me</a>
+                     <h4>Teléfono</h4>
+                     <p>Teléfono: [+34] 881971010</p>
+                     <a href="mailto:cispac.3dlab@usc.gal">Enviar Email</a>
                      <hr>
-                     <h4>Office Hours:</h4>
-                     <p>Monday-Friday (8.00am - 5.00pm)</p>
+                     <h4>Horario de atención:</h4>
+                     <p>Lunes-Viernes (8.00am - 5.00pm)</p>
                      <hr>
-                     <p><a href="http://scholar.google.com">Google Scholar</a></p>
-                     <p><a href="http://www.researchgate.net">ResearchGate</a></p>
-                     <br />
-                     <p>
-                        <a href="https://www.facebook.com" class="sb facebook">Facebook</a>
-                        <a href="http://www.linkedin.com" class="sb linkedin">LinkedIn</a>
-                     </p>
+                     <p><a href="https://cispac.gal/es/">Web del CISPAC</a></p>
+                     <p><a href="https://www.usc.gal/">Universidad de Santiago de Compostela</a></p>
                   </div>
                </div>
             </div>
@@ -86,7 +87,7 @@
                <h3>Información de contacto</h3>
                <p><b>Horario: </b>Lunes-Viernes (8.00am - 5.00pm)</p>
                <p><b>Teléfono: </b>[+34] 881971010</p>
-               <a href="mailto:miguel.carrero@usc.es">Email</a>
+               <a href="mailto:cispac.3dlab@usc.gal">Email</a>
             </div>
             <div class="span2">
                <a href="https://cispac.gal/es/"><img src="thumbs/CISPAC-LAB_logo.jpg" alt="CISPAC-lab-logo" /></a>
@@ -99,8 +100,8 @@
                   15702
                </p>
                <a
-                  href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Show
-                  Map</a>
+                  href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Mostrar
+                  Mapa</a>
             </div>
          </div>
       </div>

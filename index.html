@@ -11,13 +11,18 @@
    <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
    <link href="css/theme.css" rel="stylesheet">
+   <link href="css/modern-enhancements.css" rel="stylesheet">
 </head>
 
 <body>
    <div class="container">
-      <header class="jumbotron subhead" id="overview">
+      <header class="jumbotron subhead" id="overview" style="position: relative;">
          <p class="lead"> Unidad de Computación, Teledetección y modelado 3D del CISPAC </p>
          <h1>CISPAC 3D LAB</h1>
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; left: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite;">
+         <img src="images/cispac_cube_icon.png" alt="CISPAC 3D Icon"
+            style="position: absolute; bottom: 15px; right: 20px; width: 80px; height: auto; opacity: 0.9; animation: float 3s ease-in-out infinite 1.5s;">
       </header>
       <div class="masthead">
          <div class="navbar">
@@ -38,43 +43,16 @@
          </div>
       </div>
       <div class="row-fluid">
-         <div class="span12">
-            <div id="main-carousel" class="carousel slide">
-               <div class="carousel-inner">
-                  <div class="item active">
-                     <img src="images/CISPAC_Fontan.JPG" class="carousel-image" alt="">
-                     <div class="carousel-caption">
-                        <h4>Bienvenid@ a la página web de la Unidad de Computación, Teledetección y modelado 3D del
-                           CISPAC</h4>
-                        <!-- -->
-                        <p></p>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <img src="images/CISPAC_3D_LAB.jpg" class="carousel-image" alt="">
-                     <div class="carousel-caption">
-                        <h4>Unidad de Computación, Teledetección y Modelado 3D</h4>
-                        <p></p>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <img src="images/CISPAC_sala_reuniones.jpg" class="carousel-image" alt="">
-                     <div class="carousel-caption">
-                        <h4>Sala de reuniones de la Unidad</h4>
-                        <p></p>
-                     </div>
-                  </div>
-               </div>
-               <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
-               <a class="right carousel-control" href="#main-carousel" data-slide="next">›</a>
-            </div>
+         <div class="span12" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+            <img src="images/CISPAC-LAB_logo.jpg" alt="CISPAC LAB Logo"
+               style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
          </div>
       </div>
       <hr>
       <div class="container-fluid">
          <div class="row-fluid marketing">
             <div class="span12">
-               <p>
+               <p style="text-align: justify;">
                   Esta nueva unidad, innovadora y multidisciplinar, dota al CISPAC de tecnología avanzada y abordar
                   retos complejos en las áreas de la Arqueología, Geografía, Geología, Historia, Economía rural y
                   Agroecología, respondiendo a las necesidades de la investigación actual. El laboratorio cuenta con
@@ -84,32 +62,92 @@
                </p>
                <br />
             </div>
+            <!-- Mapa y Ubicación -->
             <div class="row-fluid">
-               <h3>Información de contacto</h3>
-               <p><b>Horario: </b>Lunes-Viernes (8.00am - 5.00pm)</p>
-               <p><b>Teléfono: </b>[+34] 881971010</p>
-               <a href="mailto:miguel.carrero@usc.es">Email</a>
-            </div>
-            <div class="row-fluid">
-               <h3>Dirección postal</h3>
-               <p>Centro de Investigación Interuniversitario das Paisaxes Atlánticas Culturais (CISPAC)<br>
-                  Edificio Fontán<br>
-                  Santiago de Compostela, A Coruña<br>
-                  15702
-               </p>
-               <div class="row-fluid">
-                  <a
-                     href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Show
-                     Map</a>
-                  <a href="https://cispac.gal/es/"><img src="thumbs/CISPAC-LAB_logo.jpg" alt="CISPAC-lab-logo" /></a>
+               <div class="span12">
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.8!2d-8.5254037!3d42.8703381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2eff48fbea25fb%3A0x16a43bf2180243c8!2sEdificio%20Font%C3%A1n!5e0!3m2!1ses!2ses!4v1234567890!5m2!1ses!2ses"
+                     width="100%" height="400"
+                     style="border:0; border-radius: 12px; margin-top: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                  <div style="margin-top: 15px; text-align: center;">
+                     <a href="https://www.google.com/maps/dir//Edificio+Font%C3%A1n,+Santiago+de+Compostela,+A+Coru%C3%B1a/@42.8703381,-8.5254037,17z"
+                        target="_blank"
+                        style="display: inline-block; padding: 12px 25px; background: #82bd41; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(130, 189, 65, 0.3);"
+                        onmouseover="this.style.background='#6fa835'" onmouseout="this.style.background='#82bd41'">
+                        📍 Cómo llegar
+                     </a>
+                  </div>
                </div>
             </div>
-            </footer>
 
-            <!-- Javascript files -->
-            <script src="js/jquery-1.9.1.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script> $('#main-carousel').carousel(); </script>
+            <!-- Sección de Financiación -->
+            <div class="row-fluid" style="margin-top: 30px;">
+               <div
+                  style="background: #f8f9fa; border-left: 4px solid #82bd41; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s ease;"
+                  onmouseover="this.style.transform='translateY(-5px)'"
+                  onmouseout="this.style.transform='translateY(0)'">
+
+                  <h4 style="color: #2c3e50; margin-top: 0; font-weight: 700;">Financiación</h4>
+                  <p style="text-align: justify; font-size: 15px; line-height: 1.6; color: #444;">
+                     La creación de este laboratorio de investigación ha sido posible gracias a la financiación del
+                     <strong>Ministerio de Ciencia, Innovación y Universidades</strong> y de la <strong>Agencia
+                        Estatal de Investigación (AEI)</strong>, a través de las Ayudas para la adquisición de
+                     equipamiento científico-técnico, correspondientes al Subprograma Estatal de Infraestructuras y
+                     Equipamiento Científico-Técnico del Programa Estatal para Impulsar la Investigación
+                     Científico-Técnica y su Transferencia, en el marco del Plan Estatal de Investigación
+                     Científica y Técnica y de Innovación 2021-2023.
+                  </p>
+
+                  <div
+                     style="margin-top: 20px; font-size: 15px; color: #2c3e50; background: rgba(130, 189, 65, 0.05); padding: 15px; border-radius: 8px;">
+                     <p style="margin-bottom: 8px;"><strong>Proyecto:</strong> EQC2024-008629-P</p>
+                     <p><strong>Convocatoria:</strong> Ayudas para la adquisición de equipamiento científico-técnico
+                        2024 (AEI).</p>
+                  </div>
+
+                  <div style="text-align: center; margin-top: 30px; padding-top: 25px; border-top: 1px solid #eee;">
+                     <img src="thumbs/Logos_financiación.png" alt="Logos Financiación: Ministerio, Unión Europea y AEI"
+                        style="width: 100%; max-width: 550px; height: auto; border-radius: 0; box-shadow: none; image-rendering: -webkit-optimize-contrast; image-rendering: high-quality;">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Información de contacto</h3>
+                  <p><b>Horario: </b>Lunes-Viernes (8.00am - 5.00pm)</p>
+                  <p><b>Teléfono: </b>[+34] 881971010</p>
+                  <a href="mailto:cispac.3dlab@usc.gal">Email</a>
+               </div>
+               <div class="span2" style="text-align: center;">
+                  <a href="https://cispac.gal/es/"><img src="images/CISPAC-LAB_logo.jpg" alt="CISPAC-lab-logo"
+                        style="width: 150px; height: auto; display: inline-block;" /></a>
+               </div>
+               <div class="span5">
+                  <h3>Dirección postal</h3>
+                  <p>Centro de Investigación Interuniversitario das Paisaxes Atlánticas Culturais (CISPAC)<br>
+                     Edificio Fontán<br>
+                     Santiago de Compostela, A Coruña<br>
+                     15702
+                  </p>
+                  <a
+                     href="https://www.google.com/maps/place/Edificio+Font%C3%A1n/@42.8703381,-8.5279786,717m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2eff48fbea25fb:0x16a43bf2180243c8!8m2!3d42.8703381!4d-8.5254037!16s%2Fg%2F11jlz2ndv7?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D">Mostrar
+                     Mapa</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <!-- Javascript files -->
+   <script src="js/jquery-1.9.1.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script> $('#main-carousel').carousel(); </script>
 </body>
 
 </html>
