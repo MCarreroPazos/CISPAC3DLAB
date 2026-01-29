@@ -1,0 +1,321 @@
+/* ===== MEJORAS RESPONSIVE PARA MÓVILES ===== */
+
+/* Ajustes generales para móviles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Header/Jumbotron responsive */
+    .jumbotron {
+        padding: 25px 15px 20px 15px !important;
+    }
+
+    .jumbotron h1 {
+        font-size: 1.8em !important;
+        margin-bottom: 10px;
+    }
+
+    .jumbotron .lead {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 15px;
+    }
+
+    /* Ocultar los iconos flotantes en móvil para no saturar */
+    .jumbotron img[style*="position: absolute"] {
+        display: none !important;
+    }
+
+    /* Navegación responsive */
+    .navbar .nav {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar .nav li {
+        display: block;
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .navbar .nav li a {
+        text-align: left;
+        padding: 12px 15px;
+        border-left: none;
+        border-right: none;
+        font-size: 15px;
+    }
+
+    .navbar .nav li:first-child a {
+        border-radius: 0;
+    }
+
+    .navbar .nav li:last-child a {
+        border-radius: 0;
+    }
+
+    /* Logo principal responsive */
+    .row-fluid .span12 img[alt*="CISPAC LAB Logo"] {
+        max-width: 100% !important;
+        padding: 0 10px;
+    }
+
+    /* Texto justificado más legible en móvil */
+    p[style*="text-align: justify"],
+    .text p {
+        text-align: left !important;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Mapa responsive */
+    iframe[src*="google.com/maps"] {
+        height: 300px !important;
+        margin-top: 10px !important;
+    }
+
+    /* Botón "Cómo llegar" responsive */
+    a[href*="google.com/maps/dir"] {
+        display: block !important;
+        width: 90%;
+        margin: 15px auto !important;
+        text-align: center;
+        padding: 15px 20px !important;
+        font-size: 16px;
+    }
+
+    /* Sección de financiación responsive */
+    .row-fluid div[style*="background: #f8f9fa"] {
+        padding: 20px 15px !important;
+        margin-top: 20px !important;
+    }
+
+    .row-fluid div[style*="background: #f8f9fa"] h4 {
+        font-size: 20px;
+    }
+
+    .row-fluid div[style*="background: #f8f9fa"] p {
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Logo de financiación responsive */
+    img[alt*="Logos Financiación"] {
+        max-width: 100% !important;
+        padding: 0 10px;
+    }
+
+    /* Footer responsive */
+    #footer .span5,
+    #footer .span2 {
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center !important;
+    }
+
+    #footer h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    #footer p,
+    #footer address {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #footer img {
+        margin-top: 20px !important;
+        max-width: 120px;
+    }
+
+    /* Tarjetas de contenido responsive */
+    #media .post_row .post {
+        max-width: 100% !important;
+        margin: 0 0 20px 0 !important;
+        height: auto !important;
+        min-height: 400px;
+    }
+
+    #media .post_row .post .img img {
+        height: 200px !important;
+        max-width: 100% !important;
+    }
+
+    /* Tablas responsive */
+    .table {
+        font-size: 12px;
+    }
+
+    .table thead th {
+        padding: 10px 8px !important;
+        font-size: 13px;
+    }
+
+    .table tbody td {
+        padding: 8px 6px;
+    }
+
+    /* Espaciado general */
+    hr {
+        margin: 20px 0 !important;
+    }
+
+    .row-fluid {
+        margin-bottom: 15px;
+    }
+
+    /* Mejoras en formularios para móvil */
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+        width: 100% !important;
+        font-size: 16px; /* Evita zoom en iOS */
+        padding: 12px 15px !important;
+    }
+
+    /* Botones más grandes para touch */
+    .btn {
+        padding: 12px 24px !important;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Imágenes responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Mejoras en títulos */
+    h1 {
+        font-size: 1.8em !important;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    /* Espaciado en secciones */
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Box content responsive */
+    .box_cont {
+        padding: 15px !important;
+    }
+
+    /* Sidebar oculta en móvil (ya existe pero reforzamos) */
+    .bs-docs-sidenav {
+        display: none !important;
+    }
+
+    /* Ajustes para span12 en móvil */
+    .span12 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Ajustes para tablets (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.2em;
+    }
+
+    .navbar .nav li a {
+        padding: 12px 10px;
+        font-size: 13px;
+    }
+
+    #media .post_row .post {
+        max-width: 280px;
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas (< 480px) */
+@media (max-width: 480px) {
+    .jumbotron h1 {
+        font-size: 1.5em !important;
+    }
+
+    .jumbotron .lead {
+        font-size: 14px !important;
+    }
+
+    .navbar .nav li a {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    #footer h3 {
+        font-size: 16px;
+    }
+
+    /* Reducir padding en secciones */
+    .row-fluid div[style*="background: #f8f9fa"] {
+        padding: 15px 10px !important;
+    }
+
+    /* Botones más compactos */
+    a[href*="google.com/maps/dir"] {
+        padding: 12px 15px !important;
+        font-size: 14px;
+    }
+}
+
+/* Mejoras de accesibilidad táctil */
+@media (hover: none) and (pointer: coarse) {
+    /* Dispositivos táctiles */
+    .navbar .nav li a {
+        min-height: 44px; /* Tamaño mínimo recomendado para touch */
+        display: flex;
+        align-items: center;
+    }
+
+    a, button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* Orientación horizontal en móviles */
+@media (max-width: 768px) and (orientation: landscape) {
+    .jumbotron {
+        padding: 20px 15px !important;
+    }
+
+    .jumbotron h1 {
+        font-size: 1.6em !important;
+    }
+
+    iframe[src*="google.com/maps"] {
+        height: 250px !important;
+    }
+}
